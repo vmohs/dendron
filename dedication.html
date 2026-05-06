@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background-image: url('dendron2.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      cursor: pointer;
+      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .click-prompt {
+      position: absolute;
+      bottom: 40px;
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      opacity: 0.75;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.75; }
+      50% { opacity: 0.3; }
+    }
+  </style>
+</head>
+<body onclick="window.location.href='table.html'">
+
+  <p style="text-align: center;">
+    special thanks: <br>
+    mairéad, my mom, calli
+  </p>
+
+  <p class="click-prompt">click anywhere to proceed</p>
+
+</body>
+</html>
