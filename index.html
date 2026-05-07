@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
-<style>
-body {
-  background-image: url('dendron1.jpg');
-}
+<head>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('dendron1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
 
-</style>
-<style>
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-	flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-	  font-family: Arial, sans-serif;
-	      img {
+    img {
       width: 60%;
       max-width: 800px;
       min-width: 300px;
-  }
-	      .click-prompt {
+    }
+
+    .click-prompt {
       margin-top: 2rem;
       width: 100%;
       text-align: center;
@@ -35,9 +38,12 @@ body {
       0%, 100% { opacity: 0.75; }
       50% { opacity: 0.3; }
     }
-</style>
-<body>
-	<img src="title.png";>
-	  <p class="click-prompt">click anywhere to proceed</p>
-	</body>
+  </style>
+</head>
+<body onclick="window.location.href='dedication.html'">
+
+  <img src="title.png">
+  <p class="click-prompt">click anywhere to proceed</p>
+
+</body>
 </html>
