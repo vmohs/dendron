@@ -18,8 +18,22 @@ body {
       width: 60%;
       max-width: 800px;
       min-width: 300px;
-    }
   }
+	      .click-prompt {
+      margin-top: 2rem;
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      opacity: 0.75;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.75; }
+      50% { opacity: 0.3; }
+    }
 </style>
 <body>
 	<img src="title.png";>
